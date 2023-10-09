@@ -104,6 +104,11 @@ a:hover {
     color: var(--light-gray)
 }
 
+.active {
+    text-underline-offset: 5px;
+    text-decoration: underline solid var(--gray);
+}
+
 .m-0 {
     margin: 0rem;
 }
