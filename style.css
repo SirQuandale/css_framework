@@ -40,18 +40,6 @@ a:hover {
     transition: 0.2s all;
 }
 
-.bg-light {
-    background-color: var(--light);
-}
-
-.bg-dark {
-    background-color: var(--dark);
-}
-
-.bg-warning {
-    background-color: var(--warning);
-}
-
 .text-light {
     color: var(--light);
 }
@@ -60,8 +48,25 @@ a:hover {
     color: var(--dark);
 }
 
+.text-gray {
+    color: var(--gray);
+}
+
 .text-center {
     text-align: center;
+}
+
+.text-code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+}
+
+.text-aqua {
+    color: #1fe4e4;
+}
+
+.text-success {
+    color: #00d400;
 }
 
 .m-auto {
@@ -84,7 +89,7 @@ a:hover {
     font-size: 12pt;
 }
 
-.btn-border {
+.border {
     border: 1px solid var(--gray);
 }
 
@@ -675,6 +680,46 @@ a:hover {
 .nav {
     display: flex;
     flex-direction: row;
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-warning {
+    background-color: var(--warning);
+}
+
+.bg-code {
+    background-color: #363636;
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.z-3 {
+    z-index: 3;
+}
+
+.z-4 {
+    z-index: 4;
+}
+
+.z-5 {
+    z-index: 5;
 }
 
 @media screen and (max-width: 960px) {
